@@ -7,6 +7,7 @@ A project to help learn the fundamentals of Swift and iOS
 * Designed layout for portrait and landscape orientation using size classes
 * Implemented asynchronous downloading of remote images
 * Custom table view cells 
+* Segue's between table view and beer detail view - passing all text based information between views. 
 * Custom fonts
 * Allowing for arbitrary loads since ATS compliant links are not ensured
 

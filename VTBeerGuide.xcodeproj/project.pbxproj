@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E363786A1DAD3B5D00559412 /* VTBeerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36378691DAD3B5D00559412 /* VTBeerData.swift */; };
+		E363786C1DAD497700559412 /* BeerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E363786B1DAD497700559412 /* BeerDetailsVC.swift */; };
 		E3BD93241DABF7AA005C394C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD93231DABF7AA005C394C /* AppDelegate.swift */; };
-		E3BD93261DABF7AA005C394C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD93251DABF7AA005C394C /* ViewController.swift */; };
+		E3BD93261DABF7AA005C394C /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD93251DABF7AA005C394C /* MainScreenVC.swift */; };
 		E3BD93291DABF7AA005C394C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BD93271DABF7AA005C394C /* Main.storyboard */; };
 		E3BD932B1DABF7AA005C394C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BD932A1DABF7AA005C394C /* Assets.xcassets */; };
 		E3BD932E1DABF7AA005C394C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BD932C1DABF7AA005C394C /* LaunchScreen.storyboard */; };
+		E3BD93361DABF7F1005C394C /* F...VERMONT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3BD93351DABF7F1005C394C /* F...VERMONT.ttf */; };
+		E3BD93381DABFC8A005C394C /* BeerCellVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD93371DABFC8A005C394C /* BeerCellVCTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E36378691DAD3B5D00559412 /* VTBeerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTBeerData.swift; sourceTree = "<group>"; };
+		E363786B1DAD497700559412 /* BeerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerDetailsVC.swift; sourceTree = "<group>"; };
 		E3BD93201DABF7AA005C394C /* VTBeerGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTBeerGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BD93231DABF7AA005C394C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3BD93251DABF7AA005C394C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3BD93251DABF7AA005C394C /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		E3BD93281DABF7AA005C394C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3BD932A1DABF7AA005C394C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3BD932D1DABF7AA005C394C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3BD932F1DABF7AA005C394C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BD93351DABF7F1005C394C /* F...VERMONT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = F...VERMONT.ttf; path = "../../../Dropbox/Dev Resources/VBG/f_vermont/F...VERMONT.ttf"; sourceTree = "<group>"; };
+		E3BD93371DABFC8A005C394C /* BeerCellVCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerCellVCTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E363786D1DADBE7F00559412 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD932A1DABF7AA005C394C /* Assets.xcassets */,
+				E3BD93351DABF7F1005C394C /* F...VERMONT.ttf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E363786E1DADBEA100559412 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E36378691DAD3B5D00559412 /* VTBeerData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E363786F1DADBEB000559412 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD93371DABFC8A005C394C /* BeerCellVCTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E36378701DADBECA00559412 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3BD93251DABF7AA005C394C /* MainScreenVC.swift */,
+				E363786B1DAD497700559412 /* BeerDetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E3BD93171DABF7AA005C394C = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +96,14 @@
 		E3BD93221DABF7AA005C394C /* VTBeerGuide */ = {
 			isa = PBXGroup;
 			children = (
-				E3BD93231DABF7AA005C394C /* AppDelegate.swift */,
-				E3BD93251DABF7AA005C394C /* ViewController.swift */,
+				E363786E1DADBEA100559412 /* Model */,
+				E363786F1DADBEB000559412 /* View */,
+				E36378701DADBECA00559412 /* Controller */,
+				E363786D1DADBE7F00559412 /* Assets */,
 				E3BD93271DABF7AA005C394C /* Main.storyboard */,
-				E3BD932A1DABF7AA005C394C /* Assets.xcassets */,
-				E3BD932C1DABF7AA005C394C /* LaunchScreen.storyboard */,
 				E3BD932F1DABF7AA005C394C /* Info.plist */,
+				E3BD932C1DABF7AA005C394C /* LaunchScreen.storyboard */,
+				E3BD93231DABF7AA005C394C /* AppDelegate.swift */,
 			);
 			path = VTBeerGuide;
 			sourceTree = "<group>";
@@ -125,6 +169,7 @@
 			files = (
 				E3BD932E1DABF7AA005C394C /* LaunchScreen.storyboard in Resources */,
 				E3BD932B1DABF7AA005C394C /* Assets.xcassets in Resources */,
+				E3BD93361DABF7F1005C394C /* F...VERMONT.ttf in Resources */,
 				E3BD93291DABF7AA005C394C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3BD93261DABF7AA005C394C /* ViewController.swift in Sources */,
+				E3BD93381DABFC8A005C394C /* BeerCellVCTableViewCell.swift in Sources */,
+				E363786A1DAD3B5D00559412 /* VTBeerData.swift in Sources */,
+				E3BD93261DABF7AA005C394C /* MainScreenVC.swift in Sources */,
+				E363786C1DAD497700559412 /* BeerDetailsVC.swift in Sources */,
 				E3BD93241DABF7AA005C394C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +347,7 @@
 				E3BD93341DABF7AA005C394C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

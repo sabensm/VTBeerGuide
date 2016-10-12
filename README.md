@@ -8,7 +8,7 @@ A project to help learn the fundamentals of Swift and iOS
 * Implemented asynchronous downloading of remote images
 * Custom table view cells 
 * Custom fonts
-* Bypassed ATS because HTTPS links are not ensured.
+* Allowing for arbitrary loads since ATS compliant links are not ensured
 
 #### Known Issues / Future Fixes
 * Image loading is SLOW. Look at ways to improve this

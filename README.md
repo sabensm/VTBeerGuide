@@ -16,6 +16,8 @@ A project to help learn the fundamentals of Swift and iOS
 * Some strange formatting issues occur when rotating the details page between portrait and landscape. 
 * Sometimes the wrong image appears in a cell on rotate or scroll. Believe this is due to cell reuse and not setting some type of identifier. Look at fixing. 
 
+![Preview Image](https://dl.dropboxusercontent.com/u/13023674/preview.png "Preview Image")
+
 
 ### Roadmap
 * Fetch and parse data from API instead of hardcoding
